@@ -40,7 +40,10 @@ if st.button("Analyze My Mood"):
         elif mood == "negative":
             st.error("😔 You seem stressed or upset.")
 
-            st.image("images/relax.jpg", use_container_width=True)
+            st.image(
+                "https://images.unsplash.com/photo-1528319725582-ddc096101511",
+                use_container_width=True
+            )
 
             st.markdown("### 🌿 Let's Try a 30-Second Breathing Exercise")
             st.write("Inhale for 4 seconds...")
@@ -50,7 +53,10 @@ if st.button("Analyze My Mood"):
             st.markdown("### 💙 Remember:")
             st.write("This feeling is temporary. You are stronger than you think.")
 
-           st.image("https://images.unsplash.com/photo-1499209974431-9dddcece7f88", width=250)
+            st.image(
+                "https://images.unsplash.com/photo-1499209974431-9dddcece7f88",
+                width=250
+            )
 
             st.markdown("### ✨ Small Self-Care Tips:")
             st.write("- Drink some water")
@@ -63,5 +69,3 @@ if st.button("Analyze My Mood"):
 
     else:
         st.warning("Please enter something first.")
-
-
