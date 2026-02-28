@@ -50,7 +50,7 @@ if st.button("Analyze My Mood"):
             st.markdown("### 💙 Remember:")
             st.write("This feeling is temporary. You are stronger than you think.")
 
-            st.image("images/hope.jpg", width=250)
+           st.image("https://images.unsplash.com/photo-1499209974431-9dddcece7f88", width=250)
 
             st.markdown("### ✨ Small Self-Care Tips:")
             st.write("- Drink some water")
@@ -63,4 +63,5 @@ if st.button("Analyze My Mood"):
 
     else:
         st.warning("Please enter something first.")
+
 
