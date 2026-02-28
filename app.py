@@ -17,7 +17,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.image("images/banner.jpg", use_container_width=True)
+st.image("https://images.unsplash.com/photo-1506126613408-eca07ce68773", use_container_width=True)
 
 st.title("🧠 MindEase - AI Mental Health Companion")
 
@@ -63,3 +63,4 @@ if st.button("Analyze My Mood"):
 
     else:
         st.warning("Please enter something first.")
+
